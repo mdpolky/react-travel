@@ -1,0 +1,11 @@
+/* using specific class for css pseudo-element */
+.headerSearchInputPlaceholderTextColor::placeholder {
+  color: #cecece;
+}
+
+/* date picker library expects className prop for styling */
+.date {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
